@@ -1,4 +1,12 @@
-# ninja-recorder
+# ninja-recorder (deprecated)
+
+> [!IMPORTANT]
+> **This repository is deprecated and archived. Development has moved to
+> [NinjaGoldfinch/ninja-recorder](https://github.com/NinjaGoldfinch/ninja-recorder).**
+>
+> Nothing here is maintained any more. Issues, pull requests and releases are
+> frozen and the code is kept for history only. File issues, and get builds,
+> at the new repository.
 
 A lightweight League of Legends VOD recorder for Windows. It records your
 games automatically, tags the timeline with in-game events — kills, deaths,
@@ -55,8 +63,10 @@ You do not press a button anywhere in that chain.
 
 ## Install
 
-**Windows only.** Grab the NSIS installer from
-[Releases](../../releases).
+**Windows only.** New builds are published at
+[NinjaGoldfinch/ninja-recorder](https://github.com/NinjaGoldfinch/ninja-recorder/releases).
+The [releases here](../../releases) are frozen at the point this repository
+was archived.
 
 That is a constraint, not an omission: capture is built on
 Windows.Graphics.Capture, which is the only way to record a
